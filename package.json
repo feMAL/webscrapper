@@ -1,0 +1,19 @@
+{
+  "name": "webscrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "FMal",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.3"
+  }
+}
